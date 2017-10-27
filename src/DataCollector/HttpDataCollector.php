@@ -187,4 +187,8 @@ class HttpDataCollector extends DataCollector
         return $symfonyMajorMinorVersion;
     }
 
+    public function reset()
+    {
+    }
+
 }
